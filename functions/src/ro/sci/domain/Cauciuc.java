@@ -9,4 +9,9 @@ public class Cauciuc {
     public String  radius;
     public int hardness;
 
+
+    public Cauciuc(String modelName) {
+        this.modelName = modelName;
+    }
+
 }

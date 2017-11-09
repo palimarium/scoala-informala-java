@@ -24,17 +24,14 @@ public class CauciucService {
 
     private void initCauciucuri() {
         // declaring some cauciucuri so that we can search through them
-        Cauciuc m1 = new Cauciuc();
+        Cauciuc m1 = new Cauciuc("D603");
         m1.radius = "17x8.5";
-        m1.modelName = "D603 HYDRO";
 
-        Cauciuc m2 = new Cauciuc();
+        Cauciuc m2 = new Cauciuc("D576");
         m2.radius = "15x10";
-        m2.modelName ="D576 LETHAL";
 
-        Cauciuc m3 = new Cauciuc();
+        Cauciuc m3 = new Cauciuc("D537");
         m3.radius = "20x10";
-        m3.modelName = "D537 MAVERICK";
 
         cauciucuri = new Cauciuc[]{m1 , m2, m3 };
     }
